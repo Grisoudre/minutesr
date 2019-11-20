@@ -120,11 +120,11 @@ ui <- fluidPage(
                     h3("Qui parle :"),
                     textInput("nom", label = h4("Nom"), value = ""),
                     radioButtons("genre", label = h4("Genre"),
-                                 choices = list("Femme", "Homme"), 
-                                 selected = "Femme"),
+                                 choices = list("Femme", "Homme", "NR"), 
+                                 selected = "NR"),
                     radioButtons("statut", label = h4("Statut"),
-                                 choices = list("Titulaire", "Non-titulaire"), 
-                                 selected = "Titulaire"))
+                                 choices = list("Titulaire", "Non-titulaire", "NR"), 
+                                 selected = "NR"))
              ),
            fluidRow(
              
