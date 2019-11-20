@@ -8,6 +8,8 @@ distribution du temps de parole - application
 if (!require("devtools")) install.packages("devtools", dep=T)
 devtools::install_github("Grisoudre/minutesr")
 ```
+A la question 'Enter one or more numbers, or an empty line to skip updates:', pater 1 puis touche entrée.
+*Le chargement peut être long*
 
 **Ouverture de l'application :**
 ```{r}
