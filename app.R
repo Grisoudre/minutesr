@@ -121,10 +121,10 @@ ui <- fluidPage(
                     textInput("nom", label = h4("Nom"), value = ""),
                     radioButtons("genre", label = h4("Genre"),
                                  choices = list("Femme", "Homme"), 
-                                 selected = NA),
+                                 selected = "Femme"),
                     radioButtons("statut", label = h4("Statut"),
                                  choices = list("Titulaire", "Non-titulaire"), 
-                                 selected = NA))
+                                 selected = "Titulaire"))
              ),
            fluidRow(
              
