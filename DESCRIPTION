@@ -1,0 +1,17 @@
+Package: minutesr
+Type: Package
+Title: Distribution du temps de parle
+Version: 0.1
+Imports: shiny,
+         questionr,
+         shinythemes,
+         shinyjs,
+	 DT,
+         tidyverse,
+	 lubridate
+Author: Grisoudre
+Maintainer: Grisoudre <cecile.rodrigues@cnrs.fr>
+Description: Décompte du temps de parole en réunion
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
