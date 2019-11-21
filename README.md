@@ -5,8 +5,8 @@ distribution du temps de parole - application
 
 **Installation du package :**
 ```{r}
-if (!require("devtools")) install.packages("devtools", dep=T)
-devtools::install_github("Grisoudre/minutesr")
+if (!require("remotes")) install.packages("remotes", dep=T)
+remotes::install_github("Grisoudre/minutesr")
 ```
 A la question 'Enter one or more numbers, or an empty line to skip updates:', taper 1 puis touche entrée.
 
